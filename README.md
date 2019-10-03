@@ -1,10 +1,13 @@
-Berkeley Hardware Floating-Point Units
+Stillwater Hardware Posit Arithmitic Units
 ======================================
 
-This repository contains hardware floating-point units written in Chisel.
-This library contains parameterized floating-point units for fused multiply-add
-operations, conversions between integer and floating-point numbers, and
-conversions between floating-point conversions with different precision.
+This repository contains hardware posit arithmetic units written in Chisel.
+This library contains parameterized posit units for fused multiply-add
+operations, conversions between integer and posit numbers, and
+conversions between posit numbers with different precision.
+
+This library is modeled (and forked) after the Berkeley Hardfloat library for
+IEEE floating-point units.
 
 **WARNING**:
 These units are works in progress.  They may not be yet completely free of
