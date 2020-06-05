@@ -1,9 +1,10 @@
-project
+project/target
 target
 ucli.key
 .*.swp
 test-*/
 test-*.log
+test-*.vcd
 
 # These come from building SoftFloat/TestFloat
 /berkeley-*float-3
